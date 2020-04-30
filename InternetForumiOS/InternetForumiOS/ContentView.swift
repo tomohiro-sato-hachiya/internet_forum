@@ -69,6 +69,9 @@ struct ContentView: View {
                         Text("掲示板画面へ")
                     }
                 }
+                NavigationLink(destination: InternetForumView(key: "")) {
+                    Text("ログインぜずに掲示板画面へ")
+                }
             }
         }
     }
